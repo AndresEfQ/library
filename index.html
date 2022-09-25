@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="inactive hidden"></div>
+  <header>
+    <div class="container">
+      <h1>Library</h1>
+      <button type="button" class="header-button">Log in</button>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <div class="grid">
+        <div class="book add-book" tabindex="0">
+          <div class="book-inner">
+            <div class="book-front add-book-front">+</div>
+            <div class="book-back">
+              <form action="#" method="get" id="add-new-book">
+                <ul>
+                  <li>
+                    <textarea name="title" id="title" cols="20" rows="3" placeholder="Title"></textarea>
+                  </li>
+                  <li>
+                    <input type="text" id="author" name="author" placeholder="Author" required>
+                  </li>
+                  <li>
+                    <input type="text" id="language" name="language" placeholder="Language" required>
+                  </li>
+                  <li>
+                    <input type="number" id="pages" name="pages" placeholder="Pages" required>
+                  </li>
+                  <li>
+                    <div>
+                      <input type="checkbox" id="read" name="read">
+                      <label for="read">Read</label>
+                    </div>
+                    <button type="submit" id="add" class="button" form="add-new-book">Add</button>
+                  </li>
+                </ul>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    Copyright © 2022 andresEfQ<a href="https://github.com/AndresEfQ"><img src="./images/github" alt="github"></a>
+  </footer>
+</body>
+</html>
