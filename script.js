@@ -154,4 +154,4 @@ addBook.addEventListener('submit', (e) => {
 });
 
 // sample book
-activeLibrary.addBookToLibrary('Piense y hagase rico', 'Napleon Hill', 'Español', '263', false);
+activeLibrary.addBookToLibrary('Harry Potter y la piedra filosofal', 'J. K. Rowling', 'Español', '315', true);
